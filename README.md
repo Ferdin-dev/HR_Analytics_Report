@@ -7,6 +7,17 @@ This project involved the collection, cleaning, and analysis of HR data in order
 ![Dashboard 1](https://github.com/Ferdin-dev/HR_Analytics_Report/assets/55439765/a6abcf7b-0b13-493a-844b-966e3ed1e88a)
 
 ## Table of Contents
+- [Data Sources](#data-sources)
+- [Tools](#tools)
+- [Data cleaning preparation](#data-cleaning-preparation)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Data Analysis](#data-analysis)
+- [Results](#results)
+- [Recommendations](#recommendations)
+- [Difficulties](#difficulties)
+- [Screenshots](#screenshots)
+- [Demo](#demo)
+
 
 ## Data Sources
 HR Analytics Data: The primary dataset used for this analysis is the “hr_analytics.csv” file, containing detailed information about the company employee.
@@ -16,7 +27,7 @@ HR Analytics Data: The primary dataset used for this analysis is the “hr_analy
 - SQL Server – Data Analysis
 - Power BI – Creating reports
 
-## Data cleaning/preparation
+## Data cleaning preparation
 
 In the initial data preparation phase, we performed the following tasks:
 - Imported the data to SQL Server
@@ -24,7 +35,7 @@ In the initial data preparation phase, we performed the following tasks:
 - Handling missing values and errors
 - Data cleaning and formatting
 
-## Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis
 
 EDA involved exploring the HR data to answer key questions, such as:
 - Is there a correlation between the distance employees commute and attrition?
@@ -76,7 +87,7 @@ Based on the analysis, we recommend the following actions:
 
 I had a problem with data type when I was trying to import the CSV file into SQL Server, the program says can’t convert string data type into float. So, I used another data type to get the final result.
 
-## Others Screenshot
+## Screenshots
 
 ![Project_1_Dashboard_1](https://github.com/Ferdin-dev/HR_Analytics_Report/assets/55439765/9a3e500b-b5b9-4bb2-aeb9-a95d45951c39)
 ![Project_1_Dashboard_2](https://github.com/Ferdin-dev/HR_Analytics_Report/assets/55439765/7ebd51a0-0e8d-452b-8792-299527cc40fd)
