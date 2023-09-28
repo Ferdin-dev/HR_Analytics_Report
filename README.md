@@ -39,19 +39,51 @@ Include some interesting code/features worked with:
 ### SQL Code
 
 Total employee
-`SELECT COUNT(EmployeeCount) as Total_employee
+```
+SELECT COUNT(EmployeeCount) as Total_employee
 FROM HR_Employee_Attrition
-`
+```
 
 Total male
-`SELECT COUNT(EmployeeCount) as Total_Male
+```
+SELECT COUNT(EmployeeCount) as Total_Male
   FROM HR_Employee_Attrition
   where Gender = 'Male
-  '
-`
+```
+
 Total Female
-`SELECT COUNT(EmployeeCount) as Total_Female
+```
+SELECT COUNT(EmployeeCount) as Total_Female
   FROM HR_Employee_Attrition
   where Gender = 'Female'
-  `
+ ```
+
+## Results
+
+The analytics results are summarized as follows:
+- The work-life balance doesn’t impact on attrition
+- The rate of job satisfaction is high at job satisfaction level 4
+- The attrition percentage doesn’t have much impact on the distance from home.
+
+## Recommendations
+
+Based on the analysis, we recommend the following actions:
+- Reduce the attrition percentage impact on the distance from home
+- The increase the rate of job satisfaction in other levels too.
+
+
+## Difficulties
+
+I had a problem with data type when I was trying to import the CSV file into SQL Server, the program says can’t convert string data type into float. So, I used another data type to get the final result.
+
+## Others Screenshot
+
+![Project_1_Dashboard_1](https://github.com/Ferdin-dev/HR_Analytics_Report/assets/55439765/9a3e500b-b5b9-4bb2-aeb9-a95d45951c39)
+![Project_1_Dashboard_2](https://github.com/Ferdin-dev/HR_Analytics_Report/assets/55439765/7ebd51a0-0e8d-452b-8792-299527cc40fd)
+![Dashboard 3](https://github.com/Ferdin-dev/HR_Analytics_Report/assets/55439765/78079210-197b-4891-aff5-d00563962382)
+
+
+## Demo
+https://github.com/Ferdin-dev/HR_Analytics_Report/assets/55439765/59065d2b-66de-4117-9c4e-59d50292536f
+
 
